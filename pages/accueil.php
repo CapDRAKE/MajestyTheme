@@ -187,7 +187,7 @@ Enfin, bénéficiez de la présence d’un staff actif, à l’écoute et proche
 									<div class="icon-box">
 										<span class="icon flaticon-joystick"></span>
 									</div>
-									<h3>4000+</h3>
+									<h3>5000+</h3>
 									<div class="text">Téléchargements de notre launcher</div>
 								</div>
 							</div>

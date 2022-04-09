@@ -36,7 +36,7 @@
                 <div class="auto-container clearfix">
                     <!--Logo-->
                     <div class="logo-outer">
-                        <div class="logo"><a href="index.php"><img src="https://majestycraft.com/theme/upload/panel/sans-fond.png" style="width: 130px; height: 130px;" alt="" title="Gamon - Digital Gaming and Esports HTML Template"></a></div>
+                        <div class="logo"><a href="index.php"><img src="https://majestycraft.com/theme/upload/panel/sans-fond.png" style="width: 130px; height: 130px;" alt="" title=""></a></div>
                     </div>
 
                     <!--Nav Box-->
@@ -67,14 +67,14 @@
 											<li><a href="https://majestycraft.com/?page=R%C3%A8glement">Règlement</a></li>	
 											<li><a href="https://majestycraft.com/?page=partenaires">Nos partenaires</a></li>
 											<li><a href="https://majestycraft.instatus.com/">Statut serveurs</a></li>
-											<li class="dropdown"><a>LiveMap</a>
+											<!-- <li class="dropdown"><a>LiveMap</a>
                                                 <ul>
                                                     <li><a href="https://livemap.minestrator.com/s/17a9a3b9-5653-4d87-8831-e4da820bb5cb/#spawnv1:128:0:-128:500:0:0:0:0:perspective">Lobby</a></li>
                                                     <li><a href="#">Créatif</a></li>
 													<li><a href="#">SkyBlock</a></li>
 													<li><a href="https://livemap.minestrator.com/s/19e473ed-2d0f-4c9c-8197-1faad9c2a9a5/#world:-147:0:280:500:0:0:0:0:perspective">PVP Box</a></li>
                                                 </ul>
-                                            </li>
+                                            </li> -->
                                         </ul>
                                     </li>
 									<li class="dropdown"><a>Support/forum</a>

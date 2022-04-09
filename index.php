@@ -57,17 +57,20 @@ $_Theme_ = $configTheme->GetTableau();
         <link rel="stylesheet" type="text/css" href="theme/<?= $_Serveur_['General']['theme']; ?>/css/responsive.css">
         <link rel="stylesheet" type="text/css" href="theme/<?= $_Serveur_['General']['theme']; ?>/assets/css/toastr.min.css">
         <script type="application/javascript" src="theme/<?= $_Serveur_['General']['theme']; ?>/assets/js/ckeditor.js"></script>
+			<script type="application/javascript" src="theme/<?= $_Serveur_['General']['theme']; ?>/assets/js/confetti.js"></script>
         <?php if(isset($_GET['page']) && $_GET['page'] == "voter") {
     echo '<script type="application/javascript" src="theme/'.$_Serveur_['General']['theme'].'/assets/js/voteControleur.js"></script>';
 } ?>
     </head>
 
     <body>
-		
+
 
         <!-- Jetons -->
         <script type="text/javascript">var _Jetons_ = "<?=$_Serveur_['General']['moneyName'];?>";</script>
         <div id="content">
+					
+
             <?php include("./include/version.php"); include("./include/version_distant.php"); if ($versioncms != $versioncmsrelease && Permission::getInstance()->verifPerm('PermsPanel', 'update', 'showPage')) : ?>
             <!-- M.A.J Dispo -->
             <div class="alert alert-primary alert-dismissible text-center fade show mb-0" role="alert">
@@ -82,6 +85,8 @@ $_Theme_ = $configTheme->GetTableau();
         </div>
         <?php include('theme/' . $_Serveur_['General']['theme'] . '/pied.php'); include('theme/' . $_Serveur_['General']['theme'] . '/formulaires.php'); ?>
         <!-- Retour en haut -->
+
+
     </body>
     <!-- Librairies -->
     <script type="application/javascript" src="theme/<?= $_Serveur_['General']['theme']; ?>/js/jquery.js"></script>
@@ -99,6 +104,7 @@ $_Theme_ = $configTheme->GetTableau();
     <script type="application/javascript" src="theme/<?= $_Serveur_['General']['theme']; ?>/assets/js/popper.min.js"></script>
 	<script type="application/javascript" src="theme/<?= $_Serveur_['General']['theme']; ?>/assets/js/multi-animated-counter.js"></script>
     <script type="application/javascript" src="theme/<?= $_Serveur_['General']['theme']; ?>/assets/js/bootstrap.min.js"></script>
+
     <!-- RGPD -->
     <script type="text/javascript" src="//www.cookieconsent.com/releases/3.1.0/cookie-consent.js"></script>
     <script type="text/javascript">
@@ -124,5 +130,9 @@ $_Theme_ = $configTheme->GetTableau();
     <script type="application/javascript" src="//api.dedipass.com/v1/pay.js"></script>
     <?php endif; ?>
     <script>new ClipboardJS('a');</script>
+	<!--<script type="text/javascript">
+      // Ici on apelle la fonction
+      	toggleConfetti()
+	</script>-->
 	<!--<div id="snow"></div>-->
 </html>
